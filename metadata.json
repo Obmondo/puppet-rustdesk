@@ -1,10 +1,10 @@
 {
-  "name": "rustdesk-puppet-module",
-  "version": "0.1.0",
+  "name": "puppet-rustdesk",
+  "version": "1.0.1",
   "author": "Obmondo",
-  "summary": "",
+  "summary": "Rustdesk Puppet/Openvox module",
   "license": "Apache-2.0",
-  "source": "https://github.com/obmondo/rustdesk-puppet-module",
+  "source": "https://github.com/obmondo/puppet-rustdesk",
   "dependencies": [],
   "operatingsystem_support": [
     {
@@ -19,6 +19,10 @@
     {
       "name": "puppet",
       "version_requirement": ">= 7.24 < 9.0.0"
+    },
+    {
+      "name": "openvox",
+      "version_requirement": ">= 7.0.0 < 9.0.0"
     }
   ],
   "pdk-version": "3.4.0",
