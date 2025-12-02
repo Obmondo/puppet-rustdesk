@@ -5,7 +5,12 @@
   "summary": "Rustdesk Puppet/Openvox module",
   "license": "Apache-2.0",
   "source": "https://github.com/obmondo/puppet-rustdesk",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.1.0"
+    }
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "Ubuntu",
@@ -22,7 +27,7 @@
     },
     {
       "name": "openvox",
-      "version_requirement": ">= 7.0.0 < 9.0.0"
+      "version_requirement": ">= 7.24 < 9.0.0"
     }
   ],
   "pdk-version": "3.4.0",
