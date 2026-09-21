@@ -22,7 +22,7 @@ This is the primary entry point for the RustDesk module.
 #### Parameters
 
 * `client_enable`: Whether to enable and manage the RustDesk client component. Type: `Boolean`. Default: `false`.
-* `client_version`: The version of RustDesk client to install. Type: `SemVer`. Default: `'1.4.4'`.
+* `client_version`: The version of RustDesk client to install. Type: `SemVer`. Default: `'1.4.9'`.
 * `client_extra_dependencies`: Array of OS specific package names that are required dependencies for the RustDesk client. Type: `Array[String]`.
 * `server_enable`: Whether to enable and manage the RustDesk server component. Type: `Boolean`. Default: `false`.
 * `server_version`: The version of RustDesk server to install. Type: `SemVer`. Default: `'1.8.6'`.
