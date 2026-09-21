@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v1.1.0 - 2026-09-21
+#### Features
+- add rspec unit tests for rustdesk module - (f281667) - Sidharth Jawale
+#### Bug Fixes
+- add ubuntu 26.04 support for rustsdesk - (bdd47cc) - Sidharth Jawale
+- fetch the architecture from facts and then download the required rustdesk package - (2e73737) - Sidharth Jawale
+#### Miscellaneous Chores
+- update changelog as per cog conventions - (ab86a28) - Sidharth Jawale
+- update rustdesk client package version to 1.4.9 - (27d3e5d) - Sidharth Jawale
+- update rustdesk server package version to 1.8.6 - (0e428cb) - Sidharth Jawale
+- add cog based release workflow for rustdesk module - (aabd41f) - Sidharth Jawale
+- update the documentation with the rustdesk class params and usage - (7c74eed) - Sidharth Jawale
+
+- - -
+
 
 ## v1.0.3 - 2025-12-15
 
