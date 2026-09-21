@@ -9,7 +9,7 @@ describe 'rustdesk::server' do
         let(:params) do
           {
             'enable' => true,
-            'version' => '1.7.2',
+            'version' => '1.8.6',
             'extra_dependencies' => [],
           }
         end
@@ -25,7 +25,7 @@ describe 'rustdesk::server' do
         let(:params) do
           {
             'enable' => false,
-            'version' => '1.7.2',
+            'version' => '1.8.6',
             'extra_dependencies' => [],
           }
         end
