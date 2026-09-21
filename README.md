@@ -45,7 +45,7 @@
 | `rustdesk::client_version` | `SemVer` | `"1.4.4"` | The version of the RustDesk client to install. |
 | `rustdesk::client_extra_dependencies` | `Array[String]` | `[]` | Additional OS packages required for the client. |
 | `rustdesk::server_enable` | `Boolean` | `false` | Whether to enable and manage the RustDesk server components (`hbbs` / `hbbr`). |
-| `rustdesk::server_version` | `SemVer` | `"1.7.2"` | The version of the RustDesk server to install. |
+| `rustdesk::server_version` | `SemVer` | `"1.8.6"` | The version of the RustDesk server to install. |
 | `rustdesk::server_extra_dependencies` | `Array[String]` | `[]` | Additional OS packages required for the server. |
 
 ---
@@ -77,7 +77,7 @@ class { 'rustdesk':
 class { 'rustdesk':
   client_enable  => false,
   server_enable  => true,
-  server_version => '1.7.2',
+  server_version => '1.8.6',
 }
 ```
 

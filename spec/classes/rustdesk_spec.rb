@@ -12,7 +12,7 @@ describe 'rustdesk' do
             'client_version' => '1.4.4',
             'client_extra_dependencies' => [],
             'server_enable' => false,
-            'server_version' => '1.7.2',
+            'server_version' => '1.8.6',
             'server_extra_dependencies' => [],
           }
         end
