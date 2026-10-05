@@ -9,14 +9,14 @@ describe 'rustdesk::client' do
         let(:params) do
           {
             'enable' => true,
-            'version' => '1.4.9',
+            'version' => '1.5.0',
             'extra_dependencies' => [],
           }
         end
 
         it { is_expected.to compile }
         it { is_expected.to contain_package('libxcb-randr0') }
-        it { is_expected.to contain_archive('/tmp/rustdesk-1.4.9-x86_64.deb') }
+        it { is_expected.to contain_archive('/tmp/rustdesk-1.5.0-x86_64.deb') }
         it { is_expected.to contain_package('rustdesk') }
         it { is_expected.to contain_service('rustdesk') }
       end
@@ -25,7 +25,7 @@ describe 'rustdesk::client' do
         let(:params) do
           {
             'enable' => false,
-            'version' => '1.4.9',
+            'version' => '1.5.0',
             'extra_dependencies' => [],
           }
         end
