@@ -9,7 +9,7 @@ describe 'rustdesk' do
         let(:params) do
           {
             'client_enable' => false,
-            'client_version' => '1.4.9',
+            'client_version' => '1.5.0',
             'client_extra_dependencies' => [],
             'server_enable' => false,
             'server_version' => '1.8.7',
