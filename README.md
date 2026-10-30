@@ -20,7 +20,7 @@
 
 ## Upstream References & Resources
 
-- **Upstream Project (GitHub)**: [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+- **Rustdesk Client**: [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 - **RustDesk Server Pro**: [rustdesk/rustdesk-server-pro](https://github.com/rustdesk/rustdesk-server-pro)
 - **Official Website**: [rustdesk.com](https://rustdesk.com)
 
